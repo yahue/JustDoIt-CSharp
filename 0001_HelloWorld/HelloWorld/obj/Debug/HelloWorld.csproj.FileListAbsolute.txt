@@ -1,0 +1,6 @@
+E:\Git\JustDoIt-CSharp\0001_HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe.config
+E:\Git\JustDoIt-CSharp\0001_HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe
+E:\Git\JustDoIt-CSharp\0001_HelloWorld\HelloWorld\bin\Debug\HelloWorld.pdb
+E:\Git\JustDoIt-CSharp\0001_HelloWorld\HelloWorld\obj\Debug\HelloWorld.csprojResolveAssemblyReference.cache
+E:\Git\JustDoIt-CSharp\0001_HelloWorld\HelloWorld\obj\Debug\HelloWorld.exe
+E:\Git\JustDoIt-CSharp\0001_HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb
