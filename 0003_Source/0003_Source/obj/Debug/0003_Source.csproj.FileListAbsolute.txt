@@ -1,0 +1,6 @@
+E:\Git\JustDoIt-CSharp\0003_Source\0003_Source\bin\Debug\0003_Source.exe.config
+E:\Git\JustDoIt-CSharp\0003_Source\0003_Source\bin\Debug\0003_Source.exe
+E:\Git\JustDoIt-CSharp\0003_Source\0003_Source\bin\Debug\0003_Source.pdb
+E:\Git\JustDoIt-CSharp\0003_Source\0003_Source\obj\Debug\0003_Source.csprojResolveAssemblyReference.cache
+E:\Git\JustDoIt-CSharp\0003_Source\0003_Source\obj\Debug\0003_Source.exe
+E:\Git\JustDoIt-CSharp\0003_Source\0003_Source\obj\Debug\0003_Source.pdb
