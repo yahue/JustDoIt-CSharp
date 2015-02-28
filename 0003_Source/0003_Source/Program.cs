@@ -67,11 +67,5 @@ namespace _0003_Source
             Console.WriteLine("请按回车键结束本程序");
             Console.ReadLine();
         }
-        enum OneDay
-        {
-            Morning,
-            Afternoon,
-            Evening
-        }
     }
 }
