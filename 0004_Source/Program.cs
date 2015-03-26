@@ -38,6 +38,9 @@ namespace _0004_Source
         /// <param name="num2"></param>
         /// <returns></returns>
         delegate int Calculate(int num1, int num2);
+
+        delegate void SaySThing(string words);
+        static event SaySThing SaySTHingEvent;
         static void Main(string[] args)
         {
             Console.WriteLine(sum(1, 1));
@@ -50,6 +53,8 @@ namespace _0004_Source
             //异步调用，计算完成会自动调用回调方法
             var result = cc.BeginInvoke(1, 1, new AsyncCallback(FunCallback), "一些回调方法需要的数据");
 
+            SaySTHingEvent += new SaySThing(HelloWorld);//注册
+            SaySTHingEvent("hello");
             Console.WriteLine("请按回车键结束程序！");
             Console.ReadLine();
         }
@@ -60,6 +65,10 @@ namespace _0004_Source
         static void FunCallback(IAsyncResult ar)
         {
             Console.WriteLine("异步：" + ar.AsyncState);
+        }
+        static void HelloWorld(string wolds)
+        {
+            Console.WriteLine(string.Format("{0},{1}", "yahui.wang 说", wolds));
         }
     }
 }
